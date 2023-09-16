@@ -43,7 +43,14 @@ export default function Home() {
   return (
     <main>
       <div className="h-screen w-screen flex items-center flex-col">
-        <div className="m-10 text-xl">Quill Rich Text Editor</div>
+        <div className="m-10  flex flex-col items-center">
+         <span className="text-2xl text-center">
+          
+        Quill Rich Text Editor
+        </span> 
+        <div className='text-center'>Author : Soubhagyajit Borah</div>
+        <div className='text-center'>visit <a href="https://www.sjbtechcenter.online/" target='_blank' className="text-blue-500">www.sjbtechcenter.online</a> for more information</div>
+        </div>
         <div className="h-full w-[90vw]">
           <QuillEditor
             value={content}
