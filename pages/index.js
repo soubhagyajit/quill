@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import 'react-quill/dist/quill.snow.css'; // Import Quill styles
+import Head from 'next/head';
 
 const QuillEditor = dynamic(() => import('react-quill'), { ssr: false });
 
@@ -41,6 +42,11 @@ export default function Home() {
   };
 
   return (
+    <>
+    <Head>
+      <title>Quill Rich Text Editor | Soubhagyajit</title>
+      <meta name='author' content='Soubhagyajit Borah'/>
+    </Head>
     <main>
       <div className="h-screen w-screen flex items-center flex-col">
         <div className="m-10  flex flex-col items-center">
@@ -58,9 +64,10 @@ export default function Home() {
             modules={quillModules}
             formats={quillFormats}
             className="w-full h-[70%] mt-10 bg-white"
-          />
+            />
         </div>
       </div>
     </main>
+    </>
   );
 }
