@@ -22,7 +22,7 @@ Make sure you have the following software installed on your system:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/quill-nextjs.git
+   git clone https://github.com/soubhagyajit/quill.git
    ```
 
 2. Navigate to the project directory:
@@ -35,6 +35,10 @@ Make sure you have the following software installed on your system:
 
    ```bash
    npm install
+   //or
+   yarn install
+   //or
+   npx install
    ```
 
 ## Adding Quill.js to Your Next.js Project
