@@ -95,4 +95,4 @@ This project is in the public domain and is free and open for anyone to use, mod
 
 ---
 
-**Note:** This README template is a starting point. Feel free to customize it according to your project's specific requirements.
+
