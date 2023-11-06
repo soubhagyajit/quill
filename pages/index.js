@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Quill Rich Text Editor | Soubhagyajit</title>
+      <title>Quill Rich Text Editor on the Web | Soubhagyajit</title>
       <meta name='author' content='Soubhagyajit Borah'/>
     </Head>
     <main>
@@ -52,10 +52,10 @@ export default function Home() {
         <div className="m-10  flex flex-col items-center">
          <span className="text-2xl text-center">
           
-        Quill Rich Text Editor
+        Quill Rich Text Editor on the Web
         </span> 
         <div className='text-center'>Author : Soubhagyajit Borah</div>
-        <div className='text-center'>visit <a href="https://www.sjbtechcenter.online/" target='_blank' className="text-blue-500">www.sjbtechcenter.online</a> for more information</div>
+        <div className='text-center'>visit <a href="https://www.sjbtechcenter.online/blogs/adding-quill-js-:-rich-text-editor-to-a-react-(next.js)-application" target='_blank' className="text-blue-500">www.sjbtechcenter.online</a> for more information</div>
         </div>
         <div className="h-full w-[90vw]">
           <QuillEditor
