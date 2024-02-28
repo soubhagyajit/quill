@@ -4,7 +4,7 @@ Quill is a simple website project that demonstrates how to integrate the Quill R
 
 ## Tutorial
 
-Follow the detailed tutorial at [Adding Quill.js: Rich Text Editor to a React (Next.js) Application](https://www.sjbtechcenter.online/blogs/adding-quill-js-:-rich-text-editor-to-a-react-(next.js)-application) to integrate Quill.js into your Next.js application.
+Follow the detailed tutorial at [Adding Quill.js: Rich Text Editor to a React (Next.js) Application](https://www.soubhagyajit.com/blogs/adding-quill-js-:-rich-text-editor-to-a-react-(next.js)-application) to integrate Quill.js into your Next.js application.
 
 ## Getting Started
 
